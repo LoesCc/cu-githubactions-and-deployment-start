@@ -10,7 +10,7 @@ namespace CICD.Mvc.Controllers
 {
     public class HomeController : Controller
     {
-        // private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -21,7 +21,7 @@ namespace CICD.Mvc.Controllers
         public IActionResult Index()
         {
 
-            return Index("1,2,3")
+            return Index("1,2,3");
         }
 
         [HttpPost("input")]
