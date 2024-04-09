@@ -4,6 +4,7 @@ using Xunit;
 
 namespace CICD.UnitTest
 {
+    // add test text
     public class StringCalculatorTest
     {
         [Fact]
